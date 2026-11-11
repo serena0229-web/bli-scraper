@@ -1,0 +1,90 @@
+{
+  "眼": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "鼻": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "口": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "上肢": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "軀幹": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "下肢": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "精神神經": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "耳": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "頭臉頸": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "胸腹部臟器": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  },
+  "皮膚": {
+    "meshes": [],
+    "label_position": [
+      0,
+      0,
+      0
+    ]
+  }
+}

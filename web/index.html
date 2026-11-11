@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>勞保失能種類互動圖</title>
+<style>
+:root{--bg:#f4f7fc;--card:#fff;--text:#1f2937;--muted:#6b7280;--line:#e5e7eb}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Microsoft JhengHei","PingFang TC",system-ui,sans-serif;background:var(--bg);color:var(--text)}
+header{padding:20px 24px 0}
+h1{margin:0;font-size:22px}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+.search{margin:14px 24px 0}
+.search input{width:100%;max-width:520px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:#fff}
+.wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;padding:20px 24px}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}}
+.card{background:var(--card);border-radius:16px;box-shadow:0 2px 12px rgba(30,41,59,.08);padding:16px}
+svg{width:100%;height:auto;display:block}
+
+/* 人體部位 */
+.part{fill:var(--c);fill-opacity:.4;stroke:var(--c);stroke-width:2;cursor:pointer;transition:fill-opacity .15s}
+.part:hover{fill-opacity:.7}
+.part.active{fill-opacity:.85;stroke-width:3}
+/* 標籤 */
+.pill{cursor:pointer}
+.pill rect{fill:#fff;stroke:var(--c);stroke-width:2;transition:fill .15s}
+.pill text{fill:var(--c);font-size:16px;font-weight:700}
+.pill:hover rect{fill:var(--c);fill-opacity:.15}
+.pill.active rect{fill:var(--c);fill-opacity:1}
+.pill.active text{fill:#fff}
+
+/* 右側面板 */
+.panel{min-height:480px}
+.phead{display:flex;align-items:baseline;gap:10px;border-bottom:3px solid var(--c);padding-bottom:8px;margin-bottom:12px}
+.phead h2{margin:0;color:var(--c);font-size:24px}
+.count{color:var(--muted);font-size:14px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tab{border:1px solid var(--c);color:var(--c);background:#fff;border-radius:999px;padding:5px 12px;font-size:14px;cursor:pointer}
+.tab.on{background:var(--c);color:#fff}
+.imgs img{max-width:100%;border-radius:10px;margin-bottom:10px}
+.gname{margin:14px 0 6px;font-weight:700;color:var(--c)}
+.rec{border-left:4px solid var(--c);background:#fafbfd;border-radius:8px;padding:10px 12px;margin-bottom:8px}
+.desc{font-size:14.5px;line-height:1.6}
+.badges{margin-top:6px;display:flex;flex-wrap:wrap;gap:8px}
+.b{font-size:13px;border-radius:999px;padding:3px 10px}
+.b b{font-size:15px}
+.b.n{background:#e0edff;color:#1d4ed8}
+.b.j{background:#ffeedd;color:#c2410c}
+.meta{margin-top:14px;font-size:12.5px;color:var(--muted)}
+.meta a{color:#2563eb}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-top:12px}
+.chip{border:2px solid var(--c);background:#fff;color:var(--c);border-radius:12px;padding:10px;font-size:15px;font-weight:700;cursor:pointer;text-align:left}
+.chip:hover{background:var(--c);color:#fff}
+.chip small{display:block;font-weight:400;opacity:.8}
+.tag{display:inline-block;background:var(--c);color:#fff;border-radius:6px;padding:1px 8px;font-size:12px;margin-right:6px}
+.result{cursor:pointer}
+footer{padding:0 24px 28px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>勞保失能種類互動圖</h1>
+  <div class="sub">點選人體部位或標籤，查看失能等級與給付日數</div>
+</header>
+<div class="search"><input id="q" type="search" placeholder="搜尋關鍵字，例如：失明、截肢、癲癇"></div>
+
+<div class="wrap">
+  <div class="card">
+    <svg id="body" viewBox="0 0 640 620" role="img" aria-label="人體失能部位互動圖">
+      <g id="parts">
+        <!-- 下肢 -->
+        <rect class="part" data-cat="下肢" x="266" y="320" width="50" height="270" rx="22"/>
+        <rect class="part" data-cat="下肢" x="324" y="320" width="50" height="270" rx="22"/>
+        <!-- 上肢 -->
+        <rect class="part" data-cat="上肢" x="210" y="124" width="34" height="190" rx="17" transform="rotate(8 227 124)"/>
+        <rect class="part" data-cat="上肢" x="396" y="124" width="34" height="190" rx="17" transform="rotate(-8 413 124)"/>
+        <!-- 皮膚（軀幹外層） -->
+        <path class="part" data-cat="皮膚" d="M258 118 Q320 100 382 118 L394 250 Q392 300 380 332 L260 332 Q248 300 246 250 Z"/>
+        <!-- 頭臉頸 -->
+        <rect class="part" data-cat="頭臉頸" x="308" y="90" width="24" height="26" rx="6"/>
+        <circle class="part" data-cat="頭臉頸" cx="320" cy="60" r="34"/>
+        <!-- 精神神經 -->
+        <ellipse class="part" data-cat="精神神經" cx="320" cy="36" rx="22" ry="13"/>
+        <!-- 眼 鼻 口 耳 -->
+        <circle class="part" data-cat="眼" cx="308" cy="58" r="6"/>
+        <circle class="part" data-cat="眼" cx="332" cy="58" r="6"/>
+        <path class="part" data-cat="鼻" d="M320 62 L314 76 L326 76 Z"/>
+        <ellipse class="part" data-cat="口" cx="320" cy="86" rx="9" ry="4"/>
+        <ellipse class="part" data-cat="耳" cx="286" cy="62" rx="5" ry="9"/>
+        <ellipse class="part" data-cat="耳" cx="354" cy="62" rx="5" ry="9"/>
+        <!-- 胸腹部臟器 -->
+        <ellipse class="part" data-cat="胸腹部臟器" cx="292" cy="170" rx="24" ry="40"/>
+        <ellipse class="part" data-cat="胸腹部臟器" cx="348" cy="170" rx="24" ry="40"/>
+        <ellipse class="part" data-cat="胸腹部臟器" cx="338" cy="188" rx="13" ry="15"/>
+        <ellipse class="part" data-cat="胸腹部臟器" cx="292" cy="240" rx="30" ry="15"/>
+        <ellipse class="part" data-cat="胸腹部臟器" cx="350" cy="238" rx="22" ry="14"/>
+        <ellipse class="part" data-cat="胸腹部臟器" cx="320" cy="292" rx="38" ry="26"/>
+        <!-- 軀幹（脊柱）由 JS 加入 -->
+      </g>
+      <g id="lines"></g>
+      <g id="pills"></g>
+    </svg>
+  </div>
+
+  <div class="card panel" id="panel"></div>
+</div>
+
+<footer>資料來源：勞動部勞工保險局「失能種類圖示說明」，實際核定以官網公告與法規附表為準。本頁為教學整理，非法律意見。</footer>
+
+<script src="disability.js"></script>
+<script>
+const COLORS = {
+  "眼":"#3b82f6","鼻":"#f59e0b","口":"#ef4444","耳":"#14b8a6",
+  "精神神經":"#a855f7","頭臉頸":"#f97316","上肢":"#22c55e",
+  "軀幹":"#6366f1","胸腹部臟器":"#ec4899","下肢":"#0ea5e9","皮膚":"#e11d48"
+};
+// side: L 左側標籤 / R 右側標籤；y: 標籤高度；t: 指向人體的座標
+const PILLS = [
+  {c:"眼",side:"L",y:40,t:[308,58]},
+  {c:"鼻",side:"L",y:90,t:[317,72]},
+  {c:"口",side:"L",y:140,t:[311,86]},
+  {c:"上肢",side:"L",y:230,t:[222,200]},
+  {c:"軀幹",side:"L",y:300,t:[316,230]},
+  {c:"下肢",side:"L",y:420,t:[290,450]},
+  {c:"精神神經",side:"R",y:40,t:[338,34]},
+  {c:"耳",side:"R",y:90,t:[355,62]},
+  {c:"頭臉頸",side:"R",y:140,t:[332,104]},
+  {c:"胸腹部臟器",side:"R",y:230,t:[370,236]},
+  {c:"皮膚",side:"R",y:380,t:[388,290]}
+];
+const svgNS = "http://www.w3.org/2000/svg";
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const panel = document.getElementById("panel");
+const q = document.getElementById("q");
+let curCat = null, curSec = 0;
+
+/* ---------- 建立人體圖 ---------- */
+const partsG = document.getElementById("parts");
+for (let i = 0; i < 8; i++) {           // 脊柱：8 節
+  const r = document.createElementNS(svgNS, "rect");
+  r.setAttribute("class", "part");
+  r.setAttribute("data-cat", "軀幹");
+  [["x",316],["y",120 + i*24],["width",8],["height",18],["rx",3]].forEach(([k,v]) => r.setAttribute(k, v));
+  partsG.appendChild(r);
+}
+document.querySelectorAll(".part").forEach(el => {
+  const c = el.dataset.cat;
+  el.style.setProperty("--c", COLORS[c]);
+  const t = document.createElementNS(svgNS, "title");
+  t.textContent = c;
+  el.appendChild(t);
+  el.addEventListener("click", () => select(c));
+});
+
+const linesG = document.getElementById("lines");
+const pillsG = document.getElementById("pills");
+PILLS.forEach(p => {
+  const left = p.side === "L";
+  const x = left ? 8 : 528;
+  const ax = left ? x + 104 : x;
+  const col = COLORS[p.c];
+  linesG.insertAdjacentHTML("beforeend",
+    `<line x1="${ax}" y1="${p.y+16}" x2="${p.t[0]}" y2="${p.t[1]}" stroke="${col}" stroke-opacity=".6" stroke-width="1.5"/>` +
+    `<circle cx="${p.t[0]}" cy="${p.t[1]}" r="3.5" fill="${col}"/>`);
+  pillsG.insertAdjacentHTML("beforeend",
+    `<g class="pill" data-cat="${p.c}" style="--c:${col}">
+       <rect x="${x}" y="${p.y}" width="104" height="32" rx="16"/>
+       <text x="${x+52}" y="${p.y+21}" text-anchor="middle">${p.c}</text>
+     </g>`);
+});
+pillsG.addEventListener("click", e => {
+  const g = e.target.closest(".pill");
+  if (g) select(g.dataset.cat);
+});
+
+/* ---------- 面板 ---------- */
+function badges(r) {
+  return `<div class="badges">
+    <span class="b n">普通給付 <b>${r.normal_days}</b> 日</span>
+    <span class="b j">職災給付 <b>${r.occupational_days}</b> 日</span></div>`;
+}
+
+function renderIntro() {
+  panel.innerHTML = `<h2 style="margin:0">請選擇部位</h2>
+    <div class="sub">點人體圖、左右兩側標籤，或下方按鈕</div>
+    <div class="chips">` +
+    DISABILITY.map(d => `<button class="chip" data-cat="${esc(d.name)}" style="--c:${COLORS[d.name] || '#666'}">
+      ${esc(d.name)}<small>${d.count} 筆等級</small></button>`).join("") +
+    `</div>`;
+}
+
+function renderPanel() {
+  const d = DISABILITY.find(x => x.name === curCat);
+  if (!d) return renderIntro();
+  const color = COLORS[curCat] || "#666";
+  const s = d.sections[curSec] || d.sections[0];
+  let html = `<div style="--c:${color}">
+    <div class="phead"><h2>${esc(d.name)}</h2><span class="count">共 ${d.count} 筆等級</span></div>`;
+  if (d.sections.length > 1) {
+    html += `<div class="tabs">` + d.sections.map((x, i) =>
+      `<button class="tab ${i === curSec ? "on" : ""}" data-i="${i}">${esc(x.title)}</button>`).join("") + `</div>`;
+  }
+  if (s.images.length) {
+    html += `<div class="imgs">` + s.images.map(src =>
+      `<img src="${esc(src)}" alt="${esc(s.title)}" loading="lazy">`).join("") + `</div>`;
+  }
+  s.groups.forEach(g => {
+    if (g.name) html += `<div class="gname">${esc(g.name)}</div>`;
+    g.records.forEach(r => {
+      html += `<div class="rec"><div class="desc">${esc(r.description)}</div>${badges(r)}</div>`;
+    });
+  });
+  html += `<div class="meta">${s.updated ? "官網最後更新：" + esc(s.updated) + "｜" : ""}
+    <a href="${esc(s.url)}" target="_blank" rel="noopener">勞保局官網原文</a></div></div>`;
+  panel.innerHTML = html;
+}
+
+function renderSearch(v) {
+  const kw = v.toLowerCase(), out = [];
+  DISABILITY.forEach(d => d.sections.forEach((s, si) => s.groups.forEach(g => g.records.forEach(r => {
+    if (r.description.toLowerCase().includes(kw)) out.push({d, si, s, r});
+  }))));
+  let html = `<h2 style="margin:0">搜尋結果</h2><div class="sub">共 ${out.length} 筆${out.length > 60 ? "，僅顯示前 60 筆" : ""}</div><div style="margin-top:12px">`;
+  if (!out.length) html += `<div class="desc">找不到符合的項目</div>`;
+  out.slice(0, 60).forEach(o => {
+    html += `<div class="rec result" data-cat="${esc(o.d.name)}" data-sec="${o.si}" style="--c:${COLORS[o.d.name] || '#666'}">
+      <div class="desc"><span class="tag">${esc(o.d.name)}</span>${esc(o.s.title)}</div>
+      <div class="desc">${esc(o.r.description)}</div>${badges(o.r)}</div>`;
+  });
+  panel.innerHTML = html + `</div>`;
+}
+
+function select(cat, sec = 0) {
+  curCat = cat; curSec = sec; q.value = "";
+  document.querySelectorAll(".part,.pill").forEach(e => e.classList.toggle("active", e.dataset.cat === cat));
+  renderPanel();
+  if (window.innerWidth <= 900) panel.scrollIntoView({behavior: "smooth", block: "start"});
+}
+
+panel.addEventListener("click", e => {
+  const tab = e.target.closest("[data-i]");
+  if (tab) { curSec = +tab.dataset.i; renderPanel(); return; }
+  const item = e.target.closest("[data-cat]");
+  if (item) select(item.dataset.cat, +(item.dataset.sec || 0));
+});
+
+q.addEventListener("input", () => {
+  const v = q.value.trim();
+  if (!v) { curCat ? renderPanel() : renderIntro(); return; }
+  renderSearch(v);
+});
+
+renderIntro();
+</script>
+</body>
+</html>

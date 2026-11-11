@@ -1,0 +1,2145 @@
+[
+  {
+    "name": "眼",
+    "count": 23,
+    "sections": [
+      {
+        "title": "視力失能",
+        "path": [
+          "眼",
+          "視力失能"
+        ],
+        "images": [
+          "images/0108949_eye.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108949.html",
+        "groups": [
+          {
+            "name": "兩眼失明者─",
+            "records": [
+              {
+                "description": "普通給付日數1000日  職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日   職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數840日  職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數740日  職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數640日  職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數540日  職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數220日  職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              }
+            ]
+          },
+          {
+            "name": "失明者─",
+            "records": [
+              {
+                "description": "普通給付日數360日  職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數220日  職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              }
+            ]
+          },
+          {
+            "name": "視力減退至0.1以下者─",
+            "records": [
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "視野失能",
+        "path": [
+          "眼",
+          "視野失能"
+        ],
+        "images": [
+          "images/0108950_eye.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108950.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數220日  職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數40日  職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "眼球調節或運動失能",
+        "path": [
+          "眼",
+          "眼球調節或運動失能"
+        ],
+        "images": [
+          "images/0108951_eye.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108951.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數100日  職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "眼瞼缺損失能",
+        "path": [
+          "眼",
+          "眼瞼缺損失能"
+        ],
+        "images": [
+          "images/0108952_eye.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108952.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數220日  職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數100日  職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "眼瞼運動失能",
+        "path": [
+          "眼",
+          "眼瞼運動失能"
+        ],
+        "images": [
+          "images/0108953_eye.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108953.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數100日  職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "鼻",
+    "count": 2,
+    "sections": [
+      {
+        "title": "鼻",
+        "path": [
+          "鼻"
+        ],
+        "images": [
+          "images/0008131_nose.png"
+        ],
+        "updated": "2022-10-24",
+        "url": "https://www.bli.gov.tw/0008131.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數220日  職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "口",
+    "count": 11,
+    "sections": [
+      {
+        "title": "口",
+        "path": [
+          "口"
+        ],
+        "images": [
+          "images/0008132_mouth.png"
+        ],
+        "updated": "2022-10-24",
+        "url": "https://www.bli.gov.tw/0008132.html",
+        "groups": [
+          {
+            "name": "一、咀嚼、吞嚥及言語機能",
+            "records": [
+              {
+                "description": "普通給付日數1000日  職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數740日  職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數640日  職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數740日  職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "二、牙齒",
+            "records": [
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "上肢",
+    "count": 79,
+    "sections": [
+      {
+        "title": "單部位",
+        "path": [
+          "上肢",
+          "單部位"
+        ],
+        "images": [
+          "images/0008154_body4.png"
+        ],
+        "updated": "2022-10-24",
+        "url": "https://www.bli.gov.tw/0008154.html",
+        "groups": [
+          {
+            "name": "腕關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數540日  職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "肘關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數640日  職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "三、肩關節",
+            "records": [
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日  職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "兩部位以上",
+        "path": [
+          "上肢",
+          "兩部位以上"
+        ],
+        "images": [
+          "images/0008152_body5_3_.png"
+        ],
+        "updated": "2022-10-24",
+        "url": "https://www.bli.gov.tw/0008152.html",
+        "groups": [
+          {
+            "name": "一、一上肢二大關節",
+            "records": [
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數360日  職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "二、一上肢三大關節",
+            "records": [
+              {
+                "description": "普通給付日數540日  職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "三、兩上肢各一大關節",
+            "records": [
+              {
+                "description": "普通給付日數540日  職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日  職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數160日  職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "四、兩上肢各二大關節",
+            "records": [
+              {
+                "description": "普通給付日數840日  職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數640日  職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數280日  職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "兩上肢肘關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              }
+            ]
+          },
+          {
+            "name": "兩上肢腕關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              }
+            ]
+          },
+          {
+            "name": "（二）、機能失能",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數740日　職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              }
+            ]
+          },
+          {
+            "name": "六、上肢其他失能",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "單一手指",
+        "path": [
+          "上肢",
+          "手部",
+          "單一手指"
+        ],
+        "images": [
+          "images/0008158_hand_1_.png"
+        ],
+        "updated": "2022-10-24",
+        "url": "https://www.bli.gov.tw/0008158.html",
+        "groups": [
+          {
+            "name": "缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              }
+            ]
+          },
+          {
+            "name": "喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "二手指以上",
+        "path": [
+          "上肢",
+          "手部",
+          "二手指以上"
+        ],
+        "images": [
+          "images/0008160_hand_1_.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008160.html",
+        "groups": [
+          {
+            "name": "拇指及食指缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "拇指及食指喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              }
+            ]
+          },
+          {
+            "name": "缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              }
+            ]
+          },
+          {
+            "name": "三、拇指及其他手指共四指",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "雙手十指均缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數740日　職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              }
+            ]
+          },
+          {
+            "name": "雙手十指均喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              }
+            ]
+          },
+          {
+            "name": "雙手兩拇指均缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "雙手兩拇指均喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "軀幹",
+    "count": 5,
+    "sections": [
+      {
+        "title": "軀幹",
+        "path": [
+          "軀幹"
+        ],
+        "images": [
+          "images/0008134_body7.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008134.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "下肢",
+    "count": 62,
+    "sections": [
+      {
+        "title": "單部位",
+        "path": [
+          "下肢",
+          "單部位"
+        ],
+        "images": [
+          "images/0008200_body6.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008200.html",
+        "groups": [
+          {
+            "name": "跗蹠關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              }
+            ]
+          },
+          {
+            "name": "足關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "膝關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "四、髖關節",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "兩部位以上",
+        "path": [
+          "下肢",
+          "兩部位以上"
+        ],
+        "images": [
+          "images/0008201_body6.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008201.html",
+        "groups": [
+          {
+            "name": "一、一下肢二大關節",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "二、一下肢三大關節",
+            "records": [
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "三、兩下肢各一大關節",
+            "records": [
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "四、兩下肢各二大關節",
+            "records": [
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "兩下肢膝關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              }
+            ]
+          },
+          {
+            "name": "兩下肢足關節以上缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              }
+            ]
+          },
+          {
+            "name": "機能失能",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數740日　職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              }
+            ]
+          },
+          {
+            "name": "六、下肢其他失能",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "一下肢縮短5公分以上者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "一下肢縮短3公分以上者－",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "單一足趾",
+        "path": [
+          "下肢",
+          "足部",
+          "單一足趾"
+        ],
+        "images": [
+          "images/0008203_foot.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008203.html",
+        "groups": [
+          {
+            "name": "缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              }
+            ]
+          },
+          {
+            "name": "喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "二足趾以上",
+        "path": [
+          "下肢",
+          "足部",
+          "二足趾以上"
+        ],
+        "images": [
+          "images/0008204_foot.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008204.html",
+        "groups": [
+          {
+            "name": "缺損者－",
+            "records": [
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              }
+            ]
+          },
+          {
+            "name": "喪失機能者－",
+            "records": [
+              {
+                "description": "普通給付日數30日　職災給付日數45日",
+                "normal_days": 30,
+                "occupational_days": 45
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數40日　職災給付日數60日",
+                "normal_days": 40,
+                "occupational_days": 60
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "精神神經",
+    "count": 13,
+    "sections": [
+      {
+        "title": "精神神經",
+        "path": [
+          "精神神經"
+        ],
+        "images": [
+          "images/0008136_body3_1_.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008136.html",
+        "groups": [
+          {
+            "name": "一、精神失能",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              },
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "二、神經失能",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              },
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "耳",
+    "count": 5,
+    "sections": [
+      {
+        "title": "耳",
+        "path": [
+          "耳"
+        ],
+        "images": [
+          "images/0008143_ear.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008143.html",
+        "groups": [
+          {
+            "name": "一、聽力",
+            "records": [
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數220日　職災給付日數330日",
+                "normal_days": 220,
+                "occupational_days": 330
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "二、 耳朵缺損",
+            "records": [
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "頭臉頸",
+    "count": 3,
+    "sections": [
+      {
+        "title": "頭臉頸",
+        "path": [
+          "頭臉頸"
+        ],
+        "images": [
+          "images/0008144_head.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008144.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "胸腹部臟器",
+    "count": 51,
+    "sections": [
+      {
+        "title": "胸腹部臟器(無特定器官)",
+        "path": [
+          "胸腹部臟器",
+          "胸腹部臟器(無特定器官)"
+        ],
+        "images": [
+          "images/0108954_body2.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108954.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              },
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "胸腹部臟器遺存失能者－",
+            "records": [
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "胸部臟器",
+        "path": [
+          "胸腹部臟器",
+          "胸部臟器"
+        ],
+        "images": [
+          "images/0108955_body2.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108955.html",
+        "groups": [
+          {
+            "name": "一、心臟",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              },
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "2",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              },
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "=50~60mmHg",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "肺臟移植者－",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "雙側乳腺全部切除者－",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "單側乳腺全部切除者－",
+            "records": [
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "腹部臟器",
+        "path": [
+          "胸腹部臟器",
+          "腹部臟器"
+        ],
+        "images": [
+          "images/0108956_body2.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108956.html",
+        "groups": [
+          {
+            "name": "一、肝臟",
+            "records": [
+              {
+                "description": "普通給付日數1200日　職災給付日數1800日",
+                "normal_days": 1200,
+                "occupational_days": 1800
+              }
+            ]
+          },
+          {
+            "name": "胃或食道靜脈曲張破裂出血",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "肝臟移植者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "胰臟全切除者－",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "三、胃全切除者－",
+            "records": [
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "四、脾臟切除者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "五、小腸",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "裝置永久性人工肛門者－",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "泌尿器",
+        "path": [
+          "胸腹部臟器",
+          "泌尿器"
+        ],
+        "images": [
+          "images/0108957_body2.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108957.html",
+        "groups": [
+          {
+            "name": "一、腎臟",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              }
+            ]
+          },
+          {
+            "name": "腎臟移植者－",
+            "records": [
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              }
+            ]
+          },
+          {
+            "name": "二、膀胱",
+            "records": [
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              }
+            ]
+          },
+          {
+            "name": "裝置永久性人工膀胱者－",
+            "records": [
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數360日　職災給付日數540日",
+                "normal_days": 360,
+                "occupational_days": 540
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "生殖器",
+        "path": [
+          "胸腹部臟器",
+          "生殖器"
+        ],
+        "images": [
+          "images/0108958_body2.png"
+        ],
+        "updated": "2025-05-14",
+        "url": "https://www.bli.gov.tw/0108958.html",
+        "groups": [
+          {
+            "name": "一、男性",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "喪失單側睪丸者－",
+            "records": [
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          },
+          {
+            "name": "二、女性",
+            "records": [
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              }
+            ]
+          },
+          {
+            "name": "因傷病割除子宮者－",
+            "records": [
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              }
+            ]
+          },
+          {
+            "name": "割除單側卵巢者－",
+            "records": [
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "皮膚",
+    "count": 10,
+    "sections": [
+      {
+        "title": "皮膚",
+        "path": [
+          "皮膚"
+        ],
+        "images": [
+          "images/0008146_skin_1_.png"
+        ],
+        "updated": "2022-10-26",
+        "url": "https://www.bli.gov.tw/0008146.html",
+        "groups": [
+          {
+            "name": "",
+            "records": [
+              {
+                "description": "普通給付日數1000日　職災給付日數1500日",
+                "normal_days": 1000,
+                "occupational_days": 1500
+              },
+              {
+                "description": "普通給付日數840日　職災給付日數1260日",
+                "normal_days": 840,
+                "occupational_days": 1260
+              },
+              {
+                "description": "普通給付日數740日　職災給付日數1110日",
+                "normal_days": 740,
+                "occupational_days": 1110
+              },
+              {
+                "description": "普通給付日數640日　職災給付日數960日",
+                "normal_days": 640,
+                "occupational_days": 960
+              },
+              {
+                "description": "普通給付日數540日　職災給付日數810日",
+                "normal_days": 540,
+                "occupational_days": 810
+              },
+              {
+                "description": "普通給付日數440日　職災給付日數660日",
+                "normal_days": 440,
+                "occupational_days": 660
+              },
+              {
+                "description": "普通給付日數280日　職災給付日數420日",
+                "normal_days": 280,
+                "occupational_days": 420
+              },
+              {
+                "description": "普通給付日數160日　職災給付日數240日",
+                "normal_days": 160,
+                "occupational_days": 240
+              },
+              {
+                "description": "普通給付日數100日　職災給付日數150日",
+                "normal_days": 100,
+                "occupational_days": 150
+              },
+              {
+                "description": "普通給付日數60日　職災給付日數90日",
+                "normal_days": 60,
+                "occupational_days": 90
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
